@@ -1,0 +1,194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Check system behaviour when user provides all the necessary data and fill in all the required steps",
+        "description": "",
+        "id": "car-rent-form;check-system-behaviour-when-user-provides-all-the-necessary-data-and-fill-in-all-the-required-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10438949900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the page \"http://qalab.pl.tivixlabs.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qalab.pl.tivixlabs.com/",
+                  "offset": 17
+                }
+              ],
+              "location": "IntroPageStepDefinitions.java:13"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26824923200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I choose country \"Poland\", city \"Wroclaw\", model \"abc\", pick up date \"14.02.2020\" and drop off date \"16.02.2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Poland",
+                  "offset": 18
+                },
+                {
+                  "val": "Wroclaw",
+                  "offset": 33
+                },
+                {
+                  "val": "abc",
+                  "offset": 50
+                },
+                {
+                  "val": "14.02.2020",
+                  "offset": 70
+                },
+                {
+                  "val": "16.02.2020",
+                  "offset": 101
+                }
+              ],
+              "location": "IntroPageStepDefinitions.java:17"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319078900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit my choice",
+            "match": {
+              "location": "IntroPageStepDefinitions.java:25"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190184800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I choose car from company \"Charles-Alvarez\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Charles-Alvarez",
+                  "offset": 27
+                }
+              ],
+              "location": "CarListPageStepDefinitions.java:13"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121285300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The summary for the chosen car \"Toyota RAV4\" is presented",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toyota RAV4",
+                  "offset": 32
+                }
+              ],
+              "location": "SummaryPageStepDefinitions.java:15"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180830000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the rent button",
+            "match": {
+              "location": "SummaryPageStepDefinitions.java:19"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 441268500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I provide necessary information: name \"Anna\", last name \"Zawierucha\", card number \"12345\", email \"zawierucha.ania@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anna",
+                  "offset": 39
+                },
+                {
+                  "val": "Zawierucha",
+                  "offset": 57
+                },
+                {
+                  "val": "12345",
+                  "offset": 83
+                },
+                {
+                  "val": "zawierucha.ania@gmail.com",
+                  "offset": 98
+                }
+              ],
+              "location": "FinalSummaryFormStepDefinitions.java:13"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185043800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The rent button is clickable",
+            "match": {
+              "location": "FinalSummaryFormStepDefinitions.java:20"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26266800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "No error is displayed",
+            "match": {
+              "location": "FinalSummaryFormStepDefinitions.java:24"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CarRent"
+          }
+        ]
+      }
+    ],
+    "name": "Car rent form",
+    "description": "",
+    "id": "car-rent-form",
+    "keyword": "Feature",
+    "uri": "features/TestCase1.feature",
+    "tags": []
+  }
+]
